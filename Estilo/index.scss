@@ -4,16 +4,69 @@
 }
 
 #nav{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height:100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    text-decoration-color: white;
 }
 
 #nav-list{
     list-style: none;
+    display: inline-flex;
+    margin-left: 500px;
+    font-size: 30px;
+    color: white;
+    
 }
 
 #nav-nosotros{
+    text-decoration-color: white;
+}
+
+#link-nosotros{
     text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration-color: white;
+}
+
+#link-nosotros :hover{
+    color:white,
+}
+
+#link-nosotros :focus{
+    color:aquamarine,
+}
+
+#link-productos{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#link-productos :hover{
+    color:black,
+}
+
+#link-productos :focus{
+    color:aquamarine,
+}
+
+#link-contacto{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#link-contacto :hover{
+    color:black,
+}
+
+#link-contacto :focus{
+    color:aquamarine,
 }
 
 
